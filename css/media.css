@@ -1,0 +1,163 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_nav{
+	  padding-right: 10px;
+	  padding-left: 10px;
+	}
+
+	#navbar_content > .navbar-nav > .nav-item{
+	  padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#navbar_content > .navbar-nav > .nav-item > .nav-link{
+			padding: 0px;
+  	  font-size: 13px;
+  	}
+
+	.dropdown-item{
+	  font-size: 0.90rem;
+	}
+
+	.navbar-brand{
+	  margin-right: 5px;
+	}
+
+	.navbar-brand svg{
+	  height: 25px;
+	}
+
+	.logo_centered svg{
+	  width: 230px;
+	  height: 230px;
+	}
+
+	.facebook{
+	  bottom: 90px;
+	}
+
+	.ig, .callback{
+	  bottom: 40px;
+	}
+
+	.hvr-underline-from-center:before{
+		display: none;
+	}
+
+	.cat_headline{
+		height: 100px;
+	}
+
+	.display-4{
+		font-size: 3.0rem;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	.main_nav{
+	  top: 0px;
+	  padding-top: 15px;
+	}
+
+	#navbar_content>.navbar-nav>.nav-item{
+		text-align: center;
+	}
+
+	#navbar_content > .navbar-nav > .nav-item > .nav-link{
+  		font-size: 16px;
+  	}
+	
+	#lang_code, .fa-sort-desc{
+		display: none;
+	}
+
+	#lang_selector{
+	    display: inline-block;
+	    font-size: 10px;
+	}
+	
+	.fa-globe{
+	    font-size: 12px;
+	}
+
+	.dropdown-item{
+		text-align: center;
+	}
+
+	#navbar_content > .navbar-nav > .nav-item:last-child{
+		margin: auto;
+	}
+	
+	#catalog_list{
+		display: none;
+	}
+
+ .display-4{
+ 		font-size: 2.20rem;
+ }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#navbar_content > .navbar-nav > .nav-item > .nav-link{
+  		font-size: 15px;
+  	}
+
+		.cat_headline{
+			height: 80px;
+		}
+
+		.display-4{
+ 			font-size: 1.50rem;
+ 		}
+
+		.close_form, .send_form{
+			font-size: 0.8em;
+		}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
