@@ -519,6 +519,11 @@ section, .main_head{
 
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
 
+section{
+  background-color: rgba(182, 182, 180, 0.60);
+}
+
+
 /* ==============СТИЛИ ТОВАРОВ============== */
 .good_item{
   padding-top: 10px;
