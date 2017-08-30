@@ -74,11 +74,8 @@ $(function(){
     $(window).on("scroll", function(){
     	if($(this).scrollTop()>100){
     		$(".navbar").removeClass("main.nav").addClass("main_nav_small");
-    	}else if($(this).scrollTop()>5){
-    		$(".logo_center path").css("opacity", 0.30);
     	}else{
     		$(".navbar").addClass("main.nav").removeClass("main_nav_small");
-    		$(".logo_center path").css("opacity", 0);
     	}
     });
 
