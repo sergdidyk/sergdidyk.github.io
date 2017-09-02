@@ -21,6 +21,12 @@ body.fade-out {
     transition: none;
 }
 
+.main_head{
+  -webkit-box-shadow: 0px 3px 10px -1px rgba(97,109,126,0.9);
+  -moz-box-shadow: 0px 3px 10px -1px rgba(97,109,126,0.9);
+  box-shadow: 0px 3px 10px -1px rgba(97,109,126,0.9);
+}
+
 section, .main_head{
   position: relative;
 }
@@ -43,7 +49,6 @@ section, .main_head{
 
 .main_nav_small, .main_nav_mob{
   top: 0px;
-  *background-color: rgba(135, 175, 199, 0.70); 
   background-color: rgba(97, 109, 126, 0.65);
 }
 
@@ -428,63 +433,34 @@ section, .main_head{
 
 /* СТИЛИ ЗАГОЛОВКОВ КАТАЛОГА */
 .cat_headline{
-  height: 120px;
-  position: relative;
+  height: 200px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  /* IE10+ */ 
-  background-image: -ms-linear-gradient(right, #FFFFFF 0%, #87AFC7 100%);
-  /* Mozilla Firefox */ 
-  background-image: -moz-linear-gradient(right, #FFFFFF 0%, #87AFC7 100%);
-  /* Opera */ 
-  background-image: -o-linear-gradient(right, #FFFFFF 0%, #87AFC7 100%);
-  /* Webkit (Safari/Chrome 10) */ 
-  background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #FFFFFF), color-stop(100, #87AFC7));
-  /* Webkit (Chrome 11+) */ 
-  background-image: -webkit-linear-gradient(right, #FFFFFF 0%, #87AFC7 100%);
-  /* W3C Markup */ 
-  background-image: linear-gradient(to left, #FFFFFF 0%, #87AFC7 100%);
-}
-
-.cat_headline:not(:first-child), .chapter_container:not(:first-child){
-  margin-top: 30px;
 }
 
 .cat_headline_inside{
-  position: absolute;
-  bottom: 5px;
+  height: 100%;
+  position: relative;
 }
 
-.display-4{
+.cat_headtext{
+  position: absolute;
+  bottom: 60px;
   text-transform: uppercase;
-  font-weight: 400;
-  padding: 0px 30px 0px 30px;
+  font-family: "Celestina", sans-serif;
+  font-size: 4.5rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #734b5e;
+  padding: 0px 0px 0px 5px;
   margin: 0px;
-  color: white;
   line-height: 0.70;
   letter-spacing: 3px;
-  text-shadow: -1px -2px 10px rgba(254, 252, 255, 0.5);
   white-space: nowrap;
 }
 
-.cat_headline{
-  margin-bottom: 20px;
-}
-
-.good_chapter{
-  text-align: center;
-  letter-spacing: 1px;
-  text-shadow: 2px 2px 8px rgba(150, 150, 150, 1);
-  padding-top: 5px;
-  padding-bottom: 0px;
-  margin-bottom: 3px;
-}
-
-.good_chapter_underline{
-  height: 1px;
-  background: -webkit-radial-gradient(rgba(135, 175, 199, 1), rgba(175, 196, 209, 0.5), rgba(255, 255, 255, 1)); /* Safari 5.1 to 6.0 */
-  background: -o-radial-gradient(rgba(135, 175, 199, 1), rgba(175, 196, 209, 0.5), rgba(255, 255, 255, 1)); /* For Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(rgba(135, 175, 199, 1), rgba(175, 196, 209, 0.5), rgba(255, 255, 255, 1)); /* For Firefox 3.6 to 15 */
-  background: radial-gradient(rgba(135, 175, 199, 1), rgba(175, 196, 209, 0.5), rgba(255, 255, 255, 1)); /* Standard syntax (must be last) */
+#new_collection{
+  background: url("../img/cafe_1.png") right no-repeat;
 }
 
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */

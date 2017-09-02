@@ -2,7 +2,13 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.cat_headtext{
+		font-size: 3.0rem;
+	}
 
+	#new_collection{
+		background-size: 100%;
+ 	}
 }
 
 /* Medium Devices, Desktops */
@@ -27,7 +33,7 @@
 	}
 
 	.navbar-brand{
-	  margin-right: 5px;
+	  margin-right: 15px;
 	}
 
 	.navbar-brand svg{
@@ -47,13 +53,14 @@
 	}
 
 	.cat_headline{
-		height: 100px;
+		height: 160px;
 	}
 
-	.display-4{
-		font-size: 3.0rem;
+	.cat_headtext{
+		font-size: 2.4rem;
+		white-space: normal;
+ 		line-height: 0.80;
 	}
-
 
 }
 
@@ -98,11 +105,17 @@
 		display: none;
 	}
 
- .display-4{
- 		font-size: 2.20rem;
- }
+	.cat_headline{
+  margin-top: 10px;
+  margin-bottom: 10px;
+	}
 
-}
+ .cat_headtext{
+ 		font-size: 3.0rem;
+ 		bottom: 10px;
+ 	}
+
+ }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -110,23 +123,26 @@
   		font-size: 15px;
   	}
 
-		.cat_headline{
-			height: 80px;
-		}
-
-		.display-4{
- 			font-size: 1.50rem;
- 		}
-
 		.close_form, .send_form{
 			font-size: 0.8em;
 		}
+
+		.cat_headtext{
+	 		font-size: 2.1rem;
+	 		padding-right: 0px;
+	 		bottom: 25px;
+	 		white-space: nowrap;
+	 		line-height: 0.60;
+ 		}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+		.cat_headtext{
+	 		padding: 0px;
+	 		bottom: 15px;
+ 		}
 }
 
 
