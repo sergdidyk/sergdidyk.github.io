@@ -460,6 +460,10 @@ section, .main_head{
 }
 
 #new_collection{
+  background: url("../img/new_collection_rzs.png") right no-repeat;
+}
+
+#new_collection_test{
   background: url("../img/cafe_1.png") right no-repeat;
 }
 
