@@ -2,13 +2,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	.cat_headtext{
-		font-size: 3.0rem;
-	}
-
-	#new_collection{
-		background-size: 100%;
- 	}
+	
 }
 
 /* Medium Devices, Desktops */
@@ -53,13 +47,16 @@
 	}
 
 	.cat_headline{
-		height: 160px;
+		height: 220px;
 	}
 
 	.cat_headtext{
-		font-size: 2.4rem;
-		white-space: normal;
- 		line-height: 0.80;
+		font-size: 3.8rem;
+		text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+	}
+
+	.cat_headimage{
+		height: 280px;
 	}
 
 }
@@ -106,16 +103,20 @@
 	}
 
 	.cat_headline{
-  margin-top: 10px;
-  margin-bottom: 10px;
+		height: 200px;
+		width: 95%;
 	}
 
- .cat_headtext{
- 		font-size: 3.0rem;
- 		bottom: 10px;
- 	}
+	.cat_headtext{
+		font-size: 3.5rem;
+		padding: 0px 0px 0px 5px;
+	}
 
- }
+	.cat_headimage{
+		height: 250px;
+	}
+
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -127,22 +128,42 @@
 			font-size: 0.8em;
 		}
 
-		.cat_headtext{
-	 		font-size: 2.1rem;
-	 		padding-right: 0px;
-	 		bottom: 25px;
-	 		white-space: nowrap;
-	 		line-height: 0.60;
- 		}
+		.cat_headline{
+		height: 170px;
+		}
+
+	.cat_headtext{
+		font-size: 2.0rem;
+		}
+
+	.cap{
+		font-size: 5.0rem;
+		letter-spacing: 8px;
+	}
+
+	.cat_headimage{
+		height: 210px;
+		}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-		.cat_headtext{
-	 		padding: 0px;
-	 		bottom: 15px;
- 		}
+		.cat_headline{
+		height: 140px;
+		}
+
+	.cap{
+		font-size: 4.0rem;
+	}
+
+	.cat_headtext{
+		font-size: 1.7rem;
+		}
+
+	.cat_headimage{
+		height: 160px;
+		}
 }
 
 

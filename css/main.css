@@ -433,8 +433,8 @@ section, .main_head{
 
 /* СТИЛИ ЗАГОЛОВКОВ КАТАЛОГА */
 .cat_headline{
-  height: 200px;
-  margin-top: 20px;
+  height: 240px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -447,25 +447,34 @@ section, .main_head{
   position: absolute;
   bottom: 60px;
   text-transform: uppercase;
-  font-family: "Celestina", sans-serif;
-  font-size: 4.5rem;
-  font-style: italic;
-  font-weight: 600;
-  color: #734b5e;
-  padding: 0px 0px 0px 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.0rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgba(12, 9, 10, 1);
+  *text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+  color: #385A76;
+  padding: 0px 0px 0px 10px;
   margin: 0px;
   line-height: 0.70;
-  letter-spacing: 3px;
+  letter-spacing: 2.0px;
   white-space: nowrap;
 }
 
-#new_collection{
-  background: url("../img/new_collection_rzs.png") right no-repeat;
+.cap{
+  font-weight: 900;
+  font-size: 6.0rem;
+  letter-spacing: 10px;
 }
 
-#new_collection_test{
-  background: url("../img/cafe_1.png") right no-repeat;
+.cat_headimage{
+  position: absolute;
+  right: 40px;
+  height: 300px;
+  width: 80%;
+  z-index: -10;
 }
+
+
 
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
 
@@ -483,6 +492,9 @@ section, .main_head{
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(92, 88, 88,1);
+-moz-box-shadow: 3px 3px 3px 0px rgba(92, 88, 88,1);
+box-shadow: 3px 3px 3px 0px rgba(92, 88, 88,1);
 }
 
 .image_container:hover{
@@ -500,8 +512,8 @@ section, .main_head{
   opacity: 0;
   transition: .5s ease;
   background-color: #0C090A;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  *-webkit-border-radius: 10px;
+  *border-radius: 10px;
 }
 
 .image_container:hover .overlay{
@@ -519,8 +531,8 @@ section, .main_head{
 }
 
 .img-fluid, .buy_container{
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  *-webkit-border-radius: 10px;
+  *border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -532,6 +544,7 @@ section, .main_head{
 .buy_container{
   height: 40px;
   margin-top: 2px;
+  display: none;
 }
 
 .price{
