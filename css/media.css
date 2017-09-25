@@ -47,16 +47,15 @@
 	}
 
 	.cat_headline{
-		height: 220px;
+		height: 200px;
 	}
 
 	.cat_headtext{
-		font-size: 3.8rem;
-		text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
+		font-size: 3.2rem;
 	}
 
 	.cat_headimage{
-		height: 280px;
+		height: 200px;
 	}
 
 }
@@ -103,17 +102,23 @@
 	}
 
 	.cat_headline{
-		height: 200px;
-		width: 95%;
+		height: 170px;
+		margin-bottom: 30px;
 	}
 
 	.cat_headtext{
-		font-size: 3.5rem;
-		padding: 0px 0px 0px 5px;
+		position: absolute;
+		height: 40px;
+		width: 100%;
+		font-size: 2.8rem;
+		left: 0px;
+		bottom: 0px;
+		text-align: center;
 	}
 
 	.cat_headimage{
-		height: 250px;
+		position: absolute;
+		height: 130px;
 	}
 
 }
@@ -129,41 +134,25 @@
 		}
 
 		.cat_headline{
-		height: 170px;
+		height: 100px;
 		}
 
 	.cat_headtext{
-		font-size: 2.0rem;
+		height: 20px;
+		top: 20px;
+		font-size: 1.7rem;
 		}
 
-	.cap{
-		font-size: 5.0rem;
-		letter-spacing: 8px;
-	}
-
 	.cat_headimage{
-		height: 210px;
+		height: 80px;
+		width: 90%;
 		}
 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-		.cat_headline{
-		height: 140px;
-		}
-
-	.cap{
-		font-size: 4.0rem;
-	}
-
-	.cat_headtext{
-		font-size: 1.7rem;
-		}
-
-	.cat_headimage{
-		height: 160px;
-		}
+	
 }
 
 
