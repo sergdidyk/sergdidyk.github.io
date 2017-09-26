@@ -378,14 +378,14 @@ section, .main_head{
   background-color: transparent;
   text-decoration: none;
   padding: 3px;
-  border-left: 1px solid #41A317;
+  border-left: 1px solid #385A76;
   border-right: 0px;
-  border-top: 1px solid #41A317;
-  border-bottom: 1px solid #41A317;
+  border-top: 1px solid #385A76;
+  border-bottom: 1px solid #385A76;
   -moz-border-radius: 15px 0px 0px 15px;
   -webkit-border-radius: 15px 0px 0px 15px;
   border-radius: 15px 0px 0px 15px;
-  color: #41A317;
+  color: #385A76;
   z-index: 100;
   position: absolute;
   -webkit-transition: all 0.2s ease-in-out;
@@ -396,12 +396,11 @@ section, .main_head{
 }
 
 .button_callback:visited{
-  color: #41A317;
+  color: #385A76;
 }
 
-
 .button_callback:hover{
-  background-color: #41A317;
+  background-color: #385A76;
   color: #FEFCFF;
 }
 
@@ -416,7 +415,7 @@ section, .main_head{
 }
 
 .tooltip.bs-tether-element-attached-right .tooltip-inner::before{
-  border-left-color:  #41A317;
+  border-left-color:  #385A76;
 }  
 
 .tooltip>.tooltip-inner{
@@ -425,7 +424,7 @@ section, .main_head{
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   border-radius: 15px;
-  border: 1px solid #41A317;
+  border: 1px solid #385A76;
   color: #4C4646;
 }
 /* КОНЕЦ КНОПКИ CALLBACK */
@@ -433,41 +432,51 @@ section, .main_head{
 
 /* СТИЛИ ЗАГОЛОВКОВ КАТАЛОГА */
 .cat_headline{
-  height: 220px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  height: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .cat_headline_inside{
   height: 100%;
-  position: relative;
 }
 
 .cat_headtext{
   position: absolute;
-  left: 30px;
-  bottom: 70px;
+  left: 50px;
+  bottom: 30px;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-size: 3.80rem;
+  font-size: 3.30rem;
   font-weight: normal;
-  *text-shadow: 1px 1px 1px rgba(12, 9, 10, 1);
-  *text-shadow: 2px 2px 3px rgba(255, 255, 255, 1);
   color: #385A76;
-  *padding: 0px 0px 0px 10px;
-  margin: 0px;
   line-height: 0.70;
-  letter-spacing: 1.5px;
+  letter-spacing: -4.70px;
   white-space: nowrap;
 }
 
-.cat_headimage{
-  position: absolute;
-  height: 220px;
-  width: 100%;
-  z-index: -10;
+#test_1{
+  letter-spacing: -1.0px;
 }
 
+#test_2{
+  letter-spacing: 1.50px;
+}
+
+#test_3{
+  letter-spacing: -1.0px;
+}
+
+#test_4{
+  letter-spacing: 1.50px;
+}
+
+#test_5{
+  letter-spacing: -1.0px;
+}
+
+#test_6{
+  letter-spacing: 1.50px;
+}
 
 
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
@@ -492,58 +501,7 @@ section, .main_head{
   cursor: zoom-in;
 }
 
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #0C090A;
-}
-
-.image_container:hover .overlay{
-  opacity: 0.50;
-}
-
-.overlay span{
-  color: rgba(255, 255, 255, 0.70);
-  font-size: 3.0em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.status{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.status span{
-  color: rgba(44, 53, 57, 0.70);
-  font-size: 2.0em;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-
 .img-fluid, .buy_container{
-  *-webkit-border-radius: 10px;
-  *border-radius: 10px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
