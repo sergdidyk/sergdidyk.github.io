@@ -478,6 +478,13 @@ section, .main_head{
   letter-spacing: 1.50px;
 }
 
+#test_7{
+  letter-spacing: -1.0px;
+}
+
+#test_8{
+  letter-spacing: 1.50px;
+}
 
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
 
