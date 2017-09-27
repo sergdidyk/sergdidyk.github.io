@@ -109,6 +109,15 @@
 		text-align: center;
 	}
 
+	.buy_desktop{
+		height: 10%;
+		background-color: rgba(56, 90, 118, 0.5);
+	}
+
+	.buy_text{
+		font-size: 14px;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -120,6 +129,8 @@
 		.close_form, .send_form{
 			font-size: 0.8em;
 		}
+
+
 }
 
 /* Custom, iPhone Retina */

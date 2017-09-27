@@ -144,7 +144,7 @@ $(function(){
 		good_price.clone().appendTo(".modal_good_price h2").addClass("badge badge-default");
 	});
 
-	$(".close_form, .send_form").click(function(){
+	$(".close_form, .send_form, .close").click(function(){
 			setTimeout(function(){
 				$(".modal_good_photo .main_photo").remove(); // удаление на setTimeout, чтобы фото удалялось уже после полного закрытия модального окна
 				$(".modal_good_price h2>span").remove(); // удаляем цену из формы

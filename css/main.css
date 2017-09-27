@@ -450,32 +450,8 @@ section, .main_head{
   font-weight: normal;
   color: #385A76;
   line-height: 0.70;
-  letter-spacing: -4.70px;
+  letter-spacing: -3.00px;
   white-space: nowrap;
-}
-
-#test_1{
-  letter-spacing: -1.0px;
-}
-
-#test_2{
-  letter-spacing: 1.50px;
-}
-
-#test_3{
-  letter-spacing: -1.0px;
-}
-
-#test_4{
-  letter-spacing: 1.50px;
-}
-
-#test_5{
-  letter-spacing: -1.0px;
-}
-
-#test_6{
-  letter-spacing: 1.50px;
 }
 
 
@@ -490,90 +466,68 @@ section, .main_head{
 
 .image_container{
   position: relative;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
 }
 
-.image_container:hover{
+.main_photo:hover{
   cursor: zoom-in;
 }
 
-.img-fluid, .buy_container{
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+.image_container:hover .buy_desktop{
+  height: 10%;
+  background-color: rgba(56, 90, 118, 0.76);
+}
+
+.main_photo{
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   backface-visibility: hidden; 
 }
 
-.buy_container{
-  height: 40px;
-  margin-top: 2px;
-  display: none;
-}
-
-.price{
-  position: relative;
-  border: 1px solid rgba(108, 187, 60, 1);
-  float: left;
-  width: 50%;
-  height: 100%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  cursor: default;
-}
-
-.buy_button{
-  position: relative;
-  background-color: rgba(108, 187, 60, 1);
-  float: right;
-  width: 50%;
-  height: 100%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  margin      : 0;
-  padding     : 0;
-  border      : 0;
-  font-family : inherit;
-  outline: 0 !important;
-}
-
-.buy_button:hover{
-  background-color: rgba(108, 187, 60, 0.70);
-}
-
-.buy_button:focus{
-  outline: 0 !important;
-  background-color: rgba(108, 187, 60, 0.70);
-}
-
-.price span, .buy_button span{
+.buy_desktop{
   position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(56, 90, 118, 0);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.buy_desktop:hover{
+  cursor: pointer;
+}
+
+.buy_text{
+  position: absolute;
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-size: 1.3em;
 }
 
-.price span{
-  color: #000000; 
-  white-space: nowrap;
+.description_container{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  z-index: 9999;
 }
 
-.buy_button span{
-  color: #FFFFFF;
-}
+
 
 /* ==============КОНЕЦ СТИЛЕЙ ТОВАРОВ============== */
 
