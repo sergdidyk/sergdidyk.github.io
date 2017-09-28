@@ -523,10 +523,23 @@ section, .main_head{
 .description_container{
   margin-top: 10px;
   text-align: center;
-  font-size: 15px;
-  z-index: 9999;
+  color: #6D6968;
 }
 
+.prod_name{
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.prod_status{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.prod_currentprice{
+  font-weight: bold;
+  font-size: 15px;
+}
 
 
 /* ==============КОНЕЦ СТИЛЕЙ ТОВАРОВ============== */
@@ -574,6 +587,15 @@ section, .main_head{
  */
 .close:focus{
   outline: none !important;
+}
+
+.send_form:hover, .close_form:hover{
+  cursor: pointer;
+}
+
+.send_form{
+  color: #FFFFFF;
+  background-color: #385A76;
 }
 
 .input-group{
