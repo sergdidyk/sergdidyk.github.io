@@ -534,15 +534,32 @@ section, .main_head{
 .prod_status{
   margin-top: 7px;
   margin-bottom: 7px;
+  font-size: 13px;
 }
 
-.prod_currentprice{
+.prod_currentprice, .prod_newprice{
   font-weight: bold;
   font-size: 15px;
 }
 
+.little_things{
+  padding: 10px 15px 10px 15px;
+  width: 20%;
+  float: left;
+}
+
+.prod_oldprice{
+  text-align: right;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.prod_newprice{
+  text-align: left;
+}
 
 /* ==============КОНЕЦ СТИЛЕЙ ТОВАРОВ============== */
+
 
 /* 
 =====ПЛАВНОЕ ПОЯВЛЕНИЕ ГАЛЕРЕИ ТОВАРОВ В МОДАЛЬНОМ ОКНЕ===

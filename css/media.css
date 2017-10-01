@@ -2,7 +2,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	
+	.buy_desktop{
+		height: 10%;
+		background-color: rgba(56, 90, 118, 0.5);
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -53,6 +56,15 @@
 	.cat_headtext{
 		bottom: 20px;
 		font-size: 3.0rem;
+	}
+
+	.description_container{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}	
+
+	.little_things{
+		width: 25%;
 	}
 }
 
@@ -109,15 +121,13 @@
 		text-align: center;
 	}
 
-	.buy_desktop{
-		height: 10%;
-		background-color: rgba(56, 90, 118, 0.5);
-	}
-
 	.buy_text{
 		font-size: 14px;
 	}
 
+	.little_things{
+		width: 33.33%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -130,8 +140,10 @@
 			font-size: 0.8em;
 		}
 
-
-}
+		.little_things{
+			width: 100%;
+		}
+	}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -142,7 +154,7 @@
 	.cat_headtext{
 			font-size: 2.20rem;
 		}
-}
+}		
 
 
 /*==========  Mobile First Method  ==========*/
