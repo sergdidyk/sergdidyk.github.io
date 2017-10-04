@@ -49,11 +49,11 @@
 		display: none;
 	}
 
-	.cat_headline{
+	.cat_headline, .order_headline{
 		height: 130px;
 	}
 
-	.cat_headtext{
+	.cat_headtext, .order_headtext{
 		bottom: 20px;
 		font-size: 3.0rem;
 	}
@@ -109,16 +109,19 @@
 		display: none;
 	}
 
-	.cat_headline{
+	.cat_headline, .order_headline{
 		height: 100px;
 	}
 
 	.cat_headtext{
 		width: 100%;
-		font-size: 2.7rem;
 		left: 0px;
 		bottom: 10px;
 		text-align: center;
+	}
+
+	.cat_headtext, .order_headtext{
+		font-size: 2.7rem;
 	}
 
 	.buy_text{
@@ -147,11 +150,11 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.cat_headline{
+	.cat_headline, .order_headline{
 		height: 90px;
 	}
 
-	.cat_headtext{
+	.cat_headtext, .order_headtext{
 			font-size: 2.20rem;
 		}
 }		

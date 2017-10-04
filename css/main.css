@@ -430,11 +430,15 @@ section, .main_head{
 /* КОНЕЦ КНОПКИ CALLBACK */
 
 
-/* СТИЛИ ЗАГОЛОВКОВ КАТАЛОГА */
-.cat_headline{
+/* СТИЛИ ЗАГОЛОВКОВ КАТАЛОГА и "КАК ЗАКАЗАТЬ"*/
+.cat_headline, .order_headline{
   height: 160px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.order_headline{
+  position: relative;
 }
 
 .cat_headline_inside{
@@ -442,9 +446,12 @@ section, .main_head{
 }
 
 .cat_headtext{
-  position: absolute;
   left: 50px;
   bottom: 30px;
+}
+
+.cat_headtext, .order_headtext{
+  position: absolute;
   text-transform: uppercase;
   font-size: 3.30rem;
   font-weight: normal;
@@ -454,9 +461,13 @@ section, .main_head{
   white-space: nowrap;
 }
 
+.order_headtext{
+  width: 100%;
+  text-align: center;
+  bottom: 30px;
+}
 
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
-
 
 /* ==============СТИЛИ ТОВАРОВ============== */
 .good_item{
@@ -596,6 +607,22 @@ section, .main_head{
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+/* ================================= */
+
+
+/* СОДЕРЖАНИЕ "КАК ЗАКАЗАТЬ" */
+
+.picture{
+  font-size: 80px;
+  padding: 25px;
+  color: #385A76;
+}
+
+
+
+
+
+
 /* ================================= */
 
 
