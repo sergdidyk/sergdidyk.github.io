@@ -137,11 +137,11 @@ $(function(){
 
 	/* Клонировать инфо (фото, цену) в форму и удалять по закрытию*/
 	$(".buy_button").click(function(){
-		var x = $(this).parent().parent(); // родительский элемент 
+		var x = $(this).parent().parent(); // родительский элемент 2-го уровня
 		var main_image = x.find(".main_photo"); // ищем основное фото товара
-		var good_price = x.find(".price span"); //	ищем цену товара	
+		var good_price = x.find(".prod_currentprice>span, .prod_newprice>span"); //	ищем цену товара
 		main_image.clone().appendTo(".modal_good_photo").addClass("img-thumbnail"); //клонируем фото в форму		
-		good_price.clone().appendTo(".modal_good_price h2").addClass("badge badge-default");
+		good_price.clone().appendTo(".modal_good_price h2").addClass("form_price"); //клонируем цену в форму	
 	});
 
 	$(".close_form, .send_form, .close").click(function(){

@@ -66,6 +66,18 @@
 	.little_things{
 		width: 25%;
 	}
+
+	.custom_headline{
+		margin-bottom: 10px;
+	}
+
+	.custom_headtext{
+		font-size: 1.9em;
+	}
+
+	.custom_button{
+		font-size: 13px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -131,6 +143,22 @@
 	.little_things{
 		width: 33.33%;
 	}
+
+	.custom_descr{
+		margin-top: 30px;
+	}
+
+	.custom_button_wrapper{
+		text-align: center;
+	}
+
+	.custom_headtext{
+		font-size: 2.0em;
+	}
+
+	.custom_button{
+		font-size: 14px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -145,6 +173,31 @@
 
 		.little_things{
 			width: 100%;
+		}
+
+		.custom_order{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		.custom_headtext{
+			font-size: 1.5em;
+		}
+		
+		.custom_text{
+			padding: 5px;
+		}
+
+		.custom_button_wrapper{
+			white-space: nowrap;
+    	text-align: start;
+			padding: 0px;
+		}
+
+		.custom_button{
+			font-size: 11px;
+			padding-left: 10px;
+			padding-right: 10px;
 		}
 	}
 

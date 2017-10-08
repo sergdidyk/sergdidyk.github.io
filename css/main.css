@@ -466,7 +466,6 @@ section, .main_head{
   text-align: center;
   bottom: 30px;
 }
-
 /* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
 
 /* ==============СТИЛИ ТОВАРОВ============== */
@@ -568,7 +567,6 @@ section, .main_head{
 .prod_newprice{
   text-align: left;
 }
-
 /* ==============КОНЕЦ СТИЛЕЙ ТОВАРОВ============== */
 
 
@@ -609,22 +607,83 @@ section, .main_head{
 }
 /* ================================= */
 
-
 /* СОДЕРЖАНИЕ "КАК ЗАКАЗАТЬ" */
-
 .picture{
   font-size: 80px;
-  padding: 25px;
   color: #385A76;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.order_action{
+  font-size: 20px;
+  font-weight: bold;
+  color: #6D6968;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.order_descr, .custom_text{
+  padding: 10px 30px 10px 30px;
+  font-size: 16px;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.order_descr span p, .custom_text p{
+  margin-bottom: 8px;
+}
+/* ================================= */
+
+/* СОДЕРЖАНИЕ "ИНД. ЗАКАЗ" */
+.custom_order{
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.custom_headline{
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom_headtext{
+  text-transform: uppercase;
+  font-size: 2.20rem;
+  font-weight: normal;
+  color: #385A76;
+  line-height: 0.70;
+  letter-spacing: -3.00px;
+  white-space: nowrap;
+}
+
+.custom_button_wrapper{
+  padding: 10px;
+  margin-top: 20px;
+  text-align: left;
+} 
+
+.custom_button{
+ border: 0px;
+ outline: 0 !important;
+ font-size: 15px;
+ color: #FFFFFF;
+ background-color: #385A76;
+ text-transform: uppercase;
+ padding: 10px 15px 10px 15px;
+ border-radius: 3px;
+ cursor: pointer;
+ transition: 0.3s all ease;
+}
+
+.custom_button:hover{
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+  background-color: rgba(56, 90, 118, 0.9);
 }
 
 
-
-
-
-
 /* ================================= */
-
 
 /* 
 =============СТИЛИ ФОРМЫ ЗАКАЗА И МОДАЛЬНОГО ОКНА==========
@@ -645,4 +704,9 @@ section, .main_head{
 .input-group{
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.form_price{
+  font-size: 18px;
+  color: #6D6968;
 }
