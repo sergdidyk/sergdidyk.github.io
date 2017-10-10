@@ -6,6 +6,20 @@
 		height: 10%;
 		background-color: rgba(56, 90, 118, 0.5);
 	}
+
+	.custom_headline{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.custom_headtext{
+		font-size: 2.1em;
+	}
+
+	.custom_button_wrapper{
+		padding: 5px;
+		margin-top: 10px
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -68,11 +82,13 @@
 	}
 
 	.custom_headline{
-		margin-bottom: 10px;
+		padding-top: 0px;
+		padding-bottom: 5px;
 	}
 
 	.custom_headtext{
 		font-size: 1.9em;
+		letter-spacing: -2.00px;
 	}
 
 	.custom_button{
@@ -182,6 +198,7 @@
 
 		.custom_headtext{
 			font-size: 1.5em;
+			letter-spacing: -1.40px;
 		}
 		
 		.custom_text{
@@ -195,7 +212,7 @@
 		}
 
 		.custom_button{
-			font-size: 11px;
+			font-size: 12px;
 			padding-left: 10px;
 			padding-right: 10px;
 		}

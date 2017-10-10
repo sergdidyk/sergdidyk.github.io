@@ -642,10 +642,16 @@ section, .main_head{
   margin-bottom: 80px;
 }
 
+.custom_descr{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .custom_headline{
-  position: relative;
   text-align: center;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .custom_headtext{
@@ -654,7 +660,7 @@ section, .main_head{
   font-weight: normal;
   color: #385A76;
   line-height: 0.70;
-  letter-spacing: -3.00px;
+  letter-spacing: -2.80px;
   white-space: nowrap;
 }
 
@@ -667,11 +673,11 @@ section, .main_head{
 .custom_button{
  border: 0px;
  outline: 0 !important;
- font-size: 15px;
+ font-size: 14px;
  color: #FFFFFF;
  background-color: #385A76;
  text-transform: uppercase;
- padding: 10px 15px 10px 15px;
+ padding: 8px 12px 8px 12px;
  border-radius: 3px;
  cursor: pointer;
  transition: 0.3s all ease;
@@ -681,8 +687,6 @@ section, .main_head{
   box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
   background-color: rgba(56, 90, 118, 0.9);
 }
-
-
 /* ================================= */
 
 /* 
