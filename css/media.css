@@ -8,12 +8,13 @@
 	}
 
 	.custom_headline{
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 5px;
 	}
 
 	.custom_headtext{
-		font-size: 2.1em;
+		font-size: 3.0em;
 	}
 
 	.custom_button_wrapper{
@@ -87,7 +88,7 @@
 	}
 
 	.custom_headtext{
-		font-size: 1.9em;
+		font-size: 1.80rem;
 		letter-spacing: -2.00px;
 	}
 
@@ -166,6 +167,11 @@
 
 	.custom_button_wrapper{
 		text-align: center;
+	}
+
+	.custom_headline{
+	  text-align: center;
+	  text-indent: 0px;
 	}
 
 	.custom_headtext{
