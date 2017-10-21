@@ -123,6 +123,10 @@ section, .main_head{
   display: none;
 }
 
+#lang_code{
+  padding-right: 3px;
+}
+
 /* АНИМАЦИЯ МЕНЮ НА ХОВЕР */
 
 .hvr-underline-from-center{
@@ -631,7 +635,7 @@ section, .main_head{
   text-align: justify;
 }
 
-.order_descr span p, .custom_text p{
+.order_descr div p, .custom_text p{
   margin-bottom: 8px;
 }
 /* ================================= */
@@ -716,3 +720,4 @@ section, .main_head{
   font-size: 18px;
   color: #6D6968;
 }
+

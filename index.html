@@ -20,7 +20,7 @@
 			
 	  <nav class="main_nav navbar fixed-top navbar-toggleable-sm">
 	  	  	
-	  	<div class="navbar-toggler navbar-toggler-right collapsed" data-toggle="collapse" data-target="#navbar_content" aria-controls="navbar_content" aria-expanded="false" aria-label="Toggle navigation">
+	  	<div class="navbar-toggler navbar-toggler-right collapsed" data-toggle="collapse" data-target="#navbar_content" aria-controls="navbar_content" aria-expanded="false" aria-label="Toggle navigation" role="navigation">
 				<span class="bar1"></span>
 				<span class="bar2"></span>
 				<span class="bar3"></span>
@@ -42,15 +42,14 @@
 		  <div class="collapse navbar-collapse" id="navbar_content">
 		  	<ul class="navbar-nav">
 		  	 	<li class="nav-item dropdown">
-		  	 		<a class="nav-link dropdown-toggle hvr-underline-from-center" id="catalog_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Каталог</a>
-					
-					<div class="dropdown-menu animated" id="catalog_list" aria-labelledby="#catalog_dropdown">
+		  	 		 	<div class="dropdown-menu animated" id="catalog_list" aria-labelledby="#catalog_dropdown">
 			          <a class="dropdown-item" href="#">Нова колекція</a>
 			          <a class="dropdown-item" href="#">Сумки</a>
 			          <a class="dropdown-item" href="#">Аксесуари</a>
 			           <a class="dropdown-item" href="#">Чоловікам</a>
 			          <a class="dropdown-item" href="#">Розпродаж</a>
 			        </div>
+			        <a class="nav-link dropdown-toggle hvr-underline-from-center" id="catalog_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Каталог</a>
 		  	 	</li>
 		  	 	<li class="nav-item"><a class="nav-link hvr-underline-from-center" href="#">Як замовити</a></li>
 		  	 	<li class="nav-item"><a class="nav-link hvr-underline-from-center" href="#">Індивідуальні замовлення</a></li>
@@ -58,12 +57,12 @@
 		  	 	<li class="nav-item"><a class="nav-link hvr-underline-from-center" href="#">Наші історії</a></li>
 		  	 	<li class="nav-item"><a class="nav-link hvr-underline-from-center" href="#">Контакти</a></li>
 		  	 	<li class="nav-item dropdown">
-		  	 		<div class="nav-link dropdown-toggle" id="language_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          <div><span id="lang_code">ukr&nbsp</span><i class="fa fa-sort-desc" aria-hidden="true"></i><span id="lang_selector">&nbsp Оберіть мову / Language select</span></div>
-			        </div>
-			        <div class="dropdown-menu animated" id="language_list" aria-labelledby="#language_dropdown">
+		  	 			<div class="dropdown-menu animated" id="language_list" aria-labelledby="#language_dropdown">
 			          <a class="dropdown-item" href="#">Українська</a>
 			          <a class="dropdown-item" href="#">English</a>
+			        </div>
+			        <div class="nav-link dropdown-toggle" id="language_dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="navigation">
+			          <div><span id="lang_code">ukr</span><i class="fa fa-sort-desc" aria-hidden="true"></i><span id="lang_selector">Оберіть мову / Language select</span></div>
 			        </div>
 		  	 	</li>
 		  	 </ul> 
@@ -106,7 +105,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/1.jpg"
+									<img alt="image" data-links="img/range/new_collection/1.jpg"
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/1.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -123,7 +122,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/2.jpg" 
+									<img alt="image" data-links="img/range/new_collection/2.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/2.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -140,7 +139,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/3.jpg" 
+									<img alt="image" data-links="img/range/new_collection/3.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/3.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -157,7 +156,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/4.jpg" 
+									<img alt="image" data-links="img/range/new_collection/4.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/4.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -174,7 +173,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/5.jpg" 
+									<img alt="image" data-links="img/range/new_collection/5.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/5.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -191,7 +190,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/6.jpg" 
+									<img alt="image" data-links="img/range/new_collection/6.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/6.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -208,7 +207,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/7.jpg" 
+									<img alt="image" data-links="img/range/new_collection/7.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/7.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -225,7 +224,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/8.jpg" 
+									<img alt="image" data-links="img/range/new_collection/8.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/8.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -242,7 +241,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/9.jpg" 
+									<img alt="image" data-links="img/range/new_collection/9.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/9.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -259,7 +258,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/10.jpg" 
+									<img alt="image" data-links="img/range/new_collection/10.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/10.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -276,7 +275,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/new_collection/11.jpg" 
+									<img alt="image" data-links="img/range/new_collection/11.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/new_collection/11.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -306,7 +305,7 @@
 				<div class="row">
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/1.jpg" 
+									<img alt="image" data-links="img/range/bags/1.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/1.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -323,7 +322,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/2.jpg" 
+									<img alt="image" data-links="img/range/bags/2.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/2.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -340,7 +339,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/3.jpg" 
+									<img alt="image" data-links="img/range/bags/3.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/3.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -357,7 +356,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/4.jpg" 
+									<img alt="image" data-links="img/range/bags/4.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/4.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -374,7 +373,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/5.jpg" 
+									<img alt="image" data-links="img/range/bags/5.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/5.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -391,7 +390,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/6.jpg" 
+									<img alt="image" data-links="img/range/bags/6.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/6.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -408,7 +407,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/7.jpg" 
+									<img alt="image" data-links="img/range/bags/7.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/7.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -425,7 +424,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/8.jpg" 
+									<img alt="image" data-links="img/range/bags/8.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/8.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -442,7 +441,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/bags/9.jpg" 
+									<img alt="image" data-links="img/range/bags/9.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/bags/9.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -471,7 +470,7 @@
 				<div class="row">
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/accessories/laptop1.jpg" 
+									<img alt="image" data-links="img/range/accessories/laptop1.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/laptop1.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -488,7 +487,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/accessories/laptop2.jpg" 
+									<img alt="image" data-links="img/range/accessories/laptop2.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/laptop2.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -505,7 +504,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/accessories/laptop3.jpg" 
+									<img alt="image" data-links="img/range/accessories/laptop3.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/laptop3.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -522,7 +521,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/accessories/laptop4.jpg" 
+									<img alt="image" data-links="img/range/accessories/laptop4.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/laptop4.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -539,7 +538,7 @@
 
 					<div class="good_item little_things">
 							<div class="image_container">
-									<img data-links="img/range/accessories/1.jpg" 
+									<img alt="image" data-links="img/range/accessories/1.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/1.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -556,7 +555,7 @@
 
 					<div class="good_item little_things">
 							<div class="image_container">
-									<img data-links="img/range/accessories/2.jpg" 
+									<img alt="image" data-links="img/range/accessories/2.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/2.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -573,7 +572,7 @@
 
 					<div class="good_item little_things">
 							<div class="image_container">
-									<img data-links="img/range/accessories/3.jpg" 
+									<img alt="image" data-links="img/range/accessories/3.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/3.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -590,7 +589,7 @@
 
 					<div class="good_item little_things">
 							<div class="image_container">
-									<img data-links="img/range/accessories/4.jpg" 
+									<img alt="image" data-links="img/range/accessories/4.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/4.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -607,7 +606,7 @@
 
 					<div class="good_item little_things">
 							<div class="image_container">
-									<img data-links="img/range/accessories/5.jpg" 
+									<img alt="image" data-links="img/range/accessories/5.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/accessories/5.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -636,7 +635,7 @@
 				<div class="row">
 						<div class="good_item col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<div class="image_container">
-									<img data-links="img/range/for_men/1.jpg,img/range/for_men/2.jpg,img/range/for_men/3.jpg" 
+									<img alt="image" data-links="img/range/for_men/1.jpg,img/range/for_men/2.jpg,img/range/for_men/3.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/for_men/1.jpg"/>
 								  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -666,7 +665,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/1.jpg" 
+							<img alt="image" data-links="img/range/sale/1.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/1.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -688,7 +687,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/2.jpg" 
+							<img alt="image" data-links="img/range/sale/2.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/2.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -710,7 +709,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/3.jpg" 
+							<img alt="image" data-links="img/range/sale/3.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/3.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -732,7 +731,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/4.jpg" 
+							<img alt="image" data-links="img/range/sale/4.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/4.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -754,7 +753,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/5.jpg" 
+							<img alt="image" data-links="img/range/sale/5.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/5.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -776,7 +775,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/6.jpg" 
+							<img alt="image" data-links="img/range/sale/6.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/6.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -798,7 +797,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/7.jpg" 
+							<img alt="image" data-links="img/range/sale/7.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/7.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -820,7 +819,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/8.jpg" 
+							<img alt="image" data-links="img/range/sale/8.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/8.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -842,7 +841,7 @@
 
 					<div class="good_item col-lg-3 col-sm-6 col-xs-12">
 						<div class="image_container">
-							<img data-links="img/range/sale/9.jpg" 
+							<img alt="image" data-links="img/range/sale/9.jpg" 
 											 class="magnific_gallery main_photo img-fluid" 
 											 src="img/range/sale/9.jpg"/>
 						  <div class="buy_button buy_desktop" data-toggle="modal" data-target=".order_form">
@@ -881,28 +880,28 @@
 							<p>замовити</p>
 						</div>
 						<div class="order_descr">
-							<span>
+							<div>
 								<p>Все дуже просто - достатньо натиснути на кнопку “Замовити” поряд з уподобаною моделлю та заповнити необхідні дані.</p>
 								<p>Далі ми зв'яжемося з Вами для узгодження деталей замовлення.</p>
 								<p>Поспілкуватися з нами, щось уточнити та замовити також можливо по телефону, Viber, Telegram та e-mail.</p>
-							</span>
+							</div>
 						</div>
 					</div>
 				
 					<div class="col-lg-4 col-md-4 how_to_pay">
 						<div class="picture">
-							<span><i class="fa fa-credit-card" aria-hidden="true"></i></i></span>
+							<span><i class="fa fa-credit-card" aria-hidden="true"></i></span>
 						</div>
 						<div class="order_action">
 							<p>оплатити</p>
 						</div>
 						<div class="order_descr">
-							<span>
+							<div>
 								<p>Коли усі деталі узгоджені, ми запропонуємо один з наступних способів оплати:</p>
 								<p>1. Передоплата на карту ПриватБанк (реквізити ми повідомимо по смс)</p>
 								<p>або</p>
 								<p>2. Оплата при отриманні замовлення у відділенні Нової Пошти (вартість послуги складає 20 грн + 2% від суми замовлення).</p>
-							</span>
+							</div>
 						</div>
 					</div>
 				
@@ -914,11 +913,11 @@
 							<p>отримати</p>
 						</div>
 						<div class="order_descr">
-							<span>
+							<div>
 								<p>Ми здійснюємо доставку по Україні та усьому світу.</p>
 								<p>Доставка по Україні здійснюється Новою Поштою - на відділення або адресна доставка.</p>
 								<p>Доставка на відділення безкоштовна.</p>
-							</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -928,13 +927,13 @@
 		<div class="container-fluid custom_order">
 			<div class="row">
 				<div class="custom_image col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img src="img/custom_order.jpg" alt="custom order image" class="img-fluid">
+					<img alt="image" src="img/custom_order.jpg" alt="custom order image" class="img-fluid">
 				</div>
 				<div class="custom_descr col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="custom_headline col-12">
-								<span class="custom_headtext">індивідуальні &nbspзамовлення</span>
+								<span class="custom_headtext">індивідуальні &nbsp замовлення</span>
 							</div>
 							<div class="custom_text col-12">
 								<p>Більшість виробів <span>GOLUBIKA</span> - це результат натхнення якоюсь конкретною  людиною, її унікальністю та стилем. Так, готуючи подарунок на день народження Андрію, народилася чоловіча сумка на пояс. Він пряцює у дельфінарії та постійно носить усе із собою. Одного разу, на хендмейд-маркеті до мене підійшов Анатолій та спитав, чи можу я зробити йому cover на ноутбук.
@@ -977,11 +976,11 @@
 
 
 
-		<div class="modal fade order_form" tabindex="-1" role="dialog" aria-labelledby="myOrderFormLabel" aria-hidden="true">
+		<div class="modal fade order_form" tabindex="-1" role="dialog" aria-labelledby="orderForm" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 	    	<div class="modal-content">
 					<div class="modal-header">
-		        <h5 class="modal-title" id="myOrderFormLabel">Замовлення</h5>
+		        <h5 class="modal-title" id="orderForm">Замовлення</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>
@@ -1008,7 +1007,7 @@
 						    <input id="user_phone" type="tel" class="form-control" name="phone" placeholder="Ваш номер телефону">
 						  </div>
 							<div class="form-group">
-						    <textarea class="form-control" type="text" id="user_comment" name="comment" placeholder="Коментар до Вашого замовлення" rows="3"></textarea>
+						    <textarea class="form-control" id="user_comment" name="comment" placeholder="Коментар до Вашого замовлення" rows="3"></textarea>
 						  </div>
 	        	</div>
 					</div>
@@ -1021,11 +1020,11 @@
 		</div>
 
 
-		<div class="modal fade customorder_form" tabindex="-1" role="dialog" aria-labelledby="myOrderFormLabel" aria-hidden="true">
+		<div class="modal fade customorder_form" tabindex="-1" role="dialog" aria-labelledby="customOrderForm" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 	    	<div class="modal-content">
 					<div class="modal-header">
-		        <h5 class="modal-title" id="myOrderFormLabel">Індивідуальне замовлення</h5>
+		        <h5 class="modal-title" id="customOrderForm">Індивідуальне замовлення</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>
@@ -1044,7 +1043,7 @@
 						    <input id="user_phone" type="tel" class="form-control" name="phone" placeholder="Ваш номер телефону">
 						  </div>
 							<div class="form-group">
-						    <textarea class="form-control" type="text" id="user_comment" name="comment" placeholder="Будь-ласка, опишіть Вашу ідею..." rows="3"></textarea>
+						    <textarea class="form-control" id="user_comment" name="comment" placeholder="Будь-ласка, опишіть Вашу ідею..." rows="3"></textarea>
 						  </div>
 					</div>
 		      <div class="modal-footer">
