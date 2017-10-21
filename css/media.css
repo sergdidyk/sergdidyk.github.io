@@ -64,11 +64,11 @@
 		display: none;
 	}
 
-	.cat_headline, .order_headline, .about_headline{
+	.cat_headline, .order_headline, .about_headline, .stories_headline{
 		height: 130px;
 	}
 
-	.cat_headtext, .order_headtext, .about_headtext{
+	.cat_headtext, .order_headtext, .about_headtext, .stories_headtext{
 		bottom: 20px;
 		font-size: 3.0rem;
 	}
@@ -97,7 +97,7 @@
 	}
 
 	#aboutFirstLine{
-  	padding-top: 5px;
+  	padding-top: 2px;
 	}
 }
 
@@ -142,18 +142,18 @@
 		display: none;
 	}
 
-	.cat_headline, .order_headline, .about_headline{
+	.cat_headline, .order_headline, .about_headline, .stories_headline{
 		height: 100px;
 	}
 
-	.cat_headtext, .about_headtext{
+	.cat_headtext, .about_headtext, .stories_headtext{
 		width: 100%;
 		left: 0px;
 		bottom: 10px;
 		text-align: center;
 	}
 
-	.cat_headtext, .order_headtext, .about_headtext{
+	.cat_headtext, .order_headtext, .about_headtext, .stories_headtext{
 		font-size: 2.7rem;
 	}
 
@@ -184,6 +184,21 @@
 
 	.custom_button{
 		font-size: 14px;
+	}
+
+	.story_text_wrap{
+		margin-top: 20px;
+	  height: auto;
+	}
+
+	.story_text{
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.stories{
+	  padding-right: 5px;
+	  padding-left: 5px;
 	}
 }
 
@@ -226,15 +241,41 @@
 			padding-left: 10px;
 			padding-right: 10px;
 		}
+
+		.logo_about{
+		  width: 105px;
+		}
+
+		.about_text{
+  		padding: 5px 15px 5px 15px;
+  		text-indent: 10px;
+  	}	
+
+  	.about_text p{
+  		margin-bottom: 5px;
+  	}
+
+  	#aboutFirstLine{
+		  padding-top: 0px;
+		}
+
+		.story_text{
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+		.carousel-control-prev span, .carousel-control-next span{
+			font-size: 13px;
+		}	
 	}
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.cat_headline, .order_headline, .about_headline{
+	.cat_headline, .order_headline, .about_headline, .stories_headline{
 		height: 90px;
 	}
 
-	.cat_headtext, .order_headtext, .about_headtext{
+	.cat_headtext, .order_headtext, .about_headtext, .stories_headtext{
 			font-size: 2.20rem;
 		}
 }		
