@@ -11,8 +11,10 @@ $(function(){
 		heightDetect();
 	});
 
-	/* Подключение плагина Parallax для header */
-		$('.main_head').parallax({imageSrc: "img/snapseed.jpg"});
+	/* Подключение плагина Parallax для header и раздела О НАС*/
+		$(".main_head").parallax({imageSrc: "img/snapseed.jpg"});
+		$(".about_image").parallax({imageSrc: "img/test.jpg", speed: 0.3});
+
 	
 	/* Удаляет анимацию при hover на меню в моб. версии */
     $(window).resize(function(){

@@ -64,11 +64,11 @@
 		display: none;
 	}
 
-	.cat_headline, .order_headline{
+	.cat_headline, .order_headline, .about_headline{
 		height: 130px;
 	}
 
-	.cat_headtext, .order_headtext{
+	.cat_headtext, .order_headtext, .about_headtext{
 		bottom: 20px;
 		font-size: 3.0rem;
 	}
@@ -94,6 +94,10 @@
 
 	.custom_button{
 		font-size: 13px;
+	}
+
+	#aboutFirstLine{
+  	padding-top: 5px;
 	}
 }
 
@@ -138,18 +142,18 @@
 		display: none;
 	}
 
-	.cat_headline, .order_headline{
+	.cat_headline, .order_headline, .about_headline{
 		height: 100px;
 	}
 
-	.cat_headtext{
+	.cat_headtext, .about_headtext{
 		width: 100%;
 		left: 0px;
 		bottom: 10px;
 		text-align: center;
 	}
 
-	.cat_headtext, .order_headtext{
+	.cat_headtext, .order_headtext, .about_headtext{
 		font-size: 2.7rem;
 	}
 
@@ -226,11 +230,11 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.cat_headline, .order_headline{
+	.cat_headline, .order_headline, .about_headline{
 		height: 90px;
 	}
 
-	.cat_headtext, .order_headtext{
+	.cat_headtext, .order_headtext, .about_headtext{
 			font-size: 2.20rem;
 		}
 }		

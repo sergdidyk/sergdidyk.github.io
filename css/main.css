@@ -434,14 +434,14 @@ section, .main_head{
 /* КОНЕЦ КНОПКИ CALLBACK */
 
 
-/* СТИЛИ ЗАГОЛОВКОВ КАТАЛОГА и "КАК ЗАКАЗАТЬ"*/
-.cat_headline, .order_headline{
+/* СТИЛИ ЗАГОЛОВКОВ */
+.cat_headline, .order_headline, .about_headline{
   height: 160px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.order_headline{
+.order_headline, .about_headline{
   position: relative;
 }
 
@@ -454,7 +454,7 @@ section, .main_head{
   bottom: 30px;
 }
 
-.cat_headtext, .order_headtext{
+.cat_headtext, .order_headtext, .about_headtext{
   position: absolute;
   text-transform: uppercase;
   font-size: 3.30rem;
@@ -465,12 +465,12 @@ section, .main_head{
   white-space: nowrap;
 }
 
-.order_headtext{
+.order_headtext, .about_headtext{
   width: 100%;
   text-align: center;
   bottom: 30px;
 }
-/* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ КАТАЛОГА */
+/* КОНЕЦ СТИЛЕЙ ЗАГОЛОВКОВ */
 
 /* ==============СТИЛИ ТОВАРОВ============== */
 .good_item{
@@ -611,7 +611,7 @@ section, .main_head{
 }
 /* ================================= */
 
-/* СОДЕРЖАНИЕ "КАК ЗАКАЗАТЬ" */
+/* СОДЕРЖАНИЕ "КАК ЗАКАЗАТЬ" и "О НАС" */
 .picture{
   font-size: 80px;
   color: #385A76;
@@ -635,7 +635,7 @@ section, .main_head{
   text-align: justify;
 }
 
-.order_descr div p, .custom_text p{
+.order_descr div p, .custom_text p, .about_text p{
   margin-bottom: 8px;
 }
 /* ================================= */
@@ -693,6 +693,38 @@ section, .main_head{
   box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
   background-color: rgba(56, 90, 118, 0.9);
 }
+/* ================================= */
+
+/* РАЗДЕЛ О НАС */
+.about_image{
+  height: 400px;
+}
+
+.about_headtext{
+  left: 0px;
+}
+
+.about_text{
+  padding: 10px 30px 10px 30px;
+  font-size: 16px;
+  text-indent: 5px;
+  text-align: justify;
+}
+
+.logo_about{
+  width: 120px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+#aboutFirstLine{
+  padding-top: 10px;
+}
+
+
+
+
 /* ================================= */
 
 /* 
