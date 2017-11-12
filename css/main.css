@@ -27,6 +27,10 @@ body.fade-out {
   box-shadow: 0px 3px 10px -1px rgba(97,109,126,0.9);
 }
 
+section{
+  margin-bottom: 50px;
+}
+
 section, .main_head{
   position: relative;
 }
@@ -728,56 +732,115 @@ section, .main_head{
 /* OUR STORIES */
 
 .stories{
-  padding-right: 15px;
-  padding-left: 15px;
+  position: relative;
+}
+
+.stories_container{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.stories_slider{
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .story_image{
-  float: left;
-}
-
-.story_text_wrap{
-  height: 100%;
-  float: right;
+  padding-left: 45px;
 }
 
 .story_text{
-  padding-right: 20px;
-  padding-left: 10px;
-  font-size: 16px;
+  padding-right: 45px;
   text-indent: 10px;
+  font-size: 16px;
   text-align: justify;
 }
 
 .story_text p{
+  margin-bottom: 8px;
+  color: #292b2c;
+}
+
+.owl-nav{
+  margin-top: 0px !important;
+}
+
+.owl-nav div{
+  background-color: transparent !important; 
+  position: absolute !important;
+  top: 30% !important;
+}
+
+.owl-prev, .owl-next{
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.owl-prev{
+  left: 0px;
+}
+
+.owl-next{
+  right: 0px;
+}
+
+.owl-carousel .fa{
+  color: rgba(56, 90, 118, 0.8);
+  font-size: 30px;
+}
+
+.owl-dots{
+  margin-top: 10px;
+}
+
+div.owl-dot.active span{
+  background: rgba(56, 90, 118, 1) !important;
+}
+
+div.owl-dot span{
+  background: rgba(56, 90, 118, 0.6) !important;
+}
+/* ================================= */
+
+
+/* 
+=============FOOTER==========
+ */
+
+footer{
+  width: 100%;
+  min-height: 250px;
+  background: rgba(56, 90, 118, 0.8);
+  color: #FEFCFF;
+}
+
+.footer_container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer_nav ul{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.footer_nav ul li{
+  *padding-top: 2px;
+  *padding-bottom: 2px;
+  *font-size: 12px;
+  *text-align: center;
+}
+
+.footer_nav ul li:first-child{
   margin-bottom: 5px;
 }
 
-.controls_container{
-  position: relative;
-  height: 50px;
+.footer_logo{
+  height: 45px;
 }
 
-.carousel-control-prev, .carousel-control-next{
-  width: 50%;
-}
-
-.carousel-control-prev{
-  text-align: right;
-  padding-right: 25px;
-}
-
-.carousel-control-next{
-  text-align: left;
-  padding-left: 25px;
-}
-
-.carousel-control-prev span, .carousel-control-next span{
-  text-transform: uppercase;
-  width: 100%;
-  color: #385A76;
-  font-size: 16px;
-  white-space: nowrap;
+.footer_logo path{
+  fill: #FEFCFF;
 }
 
 /* ================================= */

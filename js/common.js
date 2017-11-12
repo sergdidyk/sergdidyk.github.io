@@ -153,11 +153,21 @@ $(function(){
 			}, 500);
 	});
 
-	/* STORIES SLIDER */
-	
+	/* STORIES SLIDER OWL carousel*/
+	$(".stories_slider").owlCarousel({
+ 
+      nav: true, // показывать кнопки next и prev 
+ 			loop: true,
+ 			center: true,
+ 			smartSpeed: 500,
+      items : 1,
+      navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+ 
+  });
 
 	/* Очистка полей ввода формы после отправки и закрытия, callback в модальном окне после отправки формы продумать*/
 
+	
   
 });
 
