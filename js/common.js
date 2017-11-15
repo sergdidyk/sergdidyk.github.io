@@ -165,10 +165,18 @@ $(function(){
  
   });
 
-	/* Очистка полей ввода формы после отправки и закрытия, callback в модальном окне после отправки формы продумать*/
-
+	/* STORIES SLIDER OWL carousel*/
 	
+		/* var footer = document.querySelector(".footer_nav");
+		var c = footer.children;
+		var footer_arr = [];
+		footer_arr.push(c);
+		console.log(footer_arr); */
+
+
+	/* Очистка полей ввода формы после отправки и закрытия, callback в модальном окне после отправки формы продумать*/
   
 });
 
-	
+
+

@@ -53,7 +53,7 @@
 	}
 
 	.footer_logo{
-		height: 30px;
+		*height: 30px;
 	}
 
 	.facebook{
@@ -102,6 +102,14 @@
 
 	#aboutFirstLine{
   	padding-top: 2px;
+	}
+
+	.footer_contacts ul{
+	  padding-left: 10px;
+	}
+
+	.footer_nav{
+		margin-top: 15px;
 	}
 }
 
@@ -207,6 +215,51 @@
 	  padding-right: 15px;
 	  padding-left: 15px;
 	}
+
+	.logo_fintern{
+		padding-bottom: 10px;
+	}
+
+	.footer_contacts{
+	  border-right: none;
+	  border-left: none;
+	  border-top: 1px solid  #FEFCFF;
+	  border-bottom: 1px solid  #FEFCFF;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
+
+	.footer_contacts ul{
+		width: fit-content;
+		width: -moz-fit-content;
+		width: -webkit-fit-content;
+		margin: auto;
+	}
+
+	.footer_logo{
+	  height: 45px;
+	}
+
+	.footer_contacts .fa-phone{
+  	*font-size: 20px;
+	}
+
+	.footer_contacts .fa-envelope{
+	  *font-size: 16px;
+	}
+
+	.footer_contacts ul li span{
+	  *font-size: 15px;
+	}	
+
+	.footer_nav{
+		margin-top: 10px;
+	}
+
+	.footer_nav span{
+		font-size: 12px;
+	}
+
 }
 
 /* Extra Small Devices, Phones */
