@@ -16,7 +16,7 @@ body {
   display: none;
 }
 
-body.fade-out {
+body.fade-out{
     opacity: 0;
     transition: none;
 }
@@ -54,12 +54,11 @@ section, .main_head{
 .main_nav_small, .main_nav_mob{
   top: 0px;
   background-color: rgba(56, 90, 118, 0.80);
-  /* background-color: rgba(97, 109, 126, 0.65); */
+  *background-color: rgba(97, 109, 126, 0.65);
 }
 
 .navbar-brand svg{
   height: 40px;
-
 }
 
 .navbar-nav{
@@ -95,13 +94,13 @@ section, .main_head{
   text-shadow: 2px 2px 4px #34282C;
 }
 
-.dropdown-menu {
+.dropdown-menu{
   margin-top: 0px;
   background-color: rgba(229, 228, 226, 0.50);
   animation-duration: 0.3s;
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu{
   display: block;
 }
 
@@ -162,7 +161,7 @@ section, .main_head{
     transition-timing-function: ease-out;
 }
 
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before{
     left: 0;
     right: 0;
 }
@@ -170,23 +169,23 @@ section, .main_head{
 /* КОНЕЦ АНИМАЦИИ МЕНЮ НА ХОВЕР */
 
 /* АНИМАЦИЯ HMBURGER КНОПКИ В МОБ. ВЕРСИИ */
-.navbar-toggler * {
+.navbar-toggler *{
   -ms-transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-.navbar-toggler {
+
+.navbar-toggler{
   height: 22px;
   width: 27px;
   margin: 8px 5px;
   cursor: pointer;
   padding: 0px;
-  
 }
 
-.navbar-toggler span {
+.navbar-toggler span{
   width: 25px;
   height: 2px;
   margin-bottom: 4px;
@@ -194,7 +193,7 @@ section, .main_head{
   display: block;
 }
 
-.navbar-toggler span.bar1 {
+.navbar-toggler span.bar1{
   -ms-transform: rotate(48deg);
   -webkit-transform: rotate(48deg);
   -moz-transform: rotate(48deg);
@@ -207,7 +206,8 @@ section, .main_head{
   transform-origin: 1px 3px;
   width: 25px;
 }
-.navbar-toggler span.bar2 {
+
+.navbar-toggler span.bar2{
   -ms-transform: rotate(-360deg) scale(0);
   -webkit-transform: rotate(-360deg) scale(0);
   -moz-transform: rotate(-360deg) scale(0);
@@ -215,7 +215,7 @@ section, .main_head{
   transform: rotate(-360deg) scale(0);
 }
 
-.navbar-toggler span.bar3 {
+.navbar-toggler span.bar3{
   -ms-transform: rotate(-52deg);
   -webkit-transform: rotate(-50deg);
   transform: rotate(-50deg);
@@ -224,6 +224,7 @@ section, .main_head{
   transform-origin: 9px 2px;
   width: 25px;
 }
+
 .navbar-toggler.collapsed span.bar1,
 .navbar-toggler.collapsed span.bar2,
 .navbar-toggler.collapsed span.bar3,
