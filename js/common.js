@@ -17,7 +17,7 @@ $(function(){
 
 	
 	/* Удаляет анимацию при hover на меню в моб. версии */
-    $(window).resize(function(){
+  $(window).resize(function(){
 	 if($(window).width()<768){
 	    $(".nav-link").removeClass("hvr-underline-from-center");
 	 }
@@ -76,8 +76,12 @@ $(function(){
     $(window).on("scroll", function(){
     	if($(this).scrollTop()>100){
     		$(".navbar").removeClass("main.nav").addClass("main_nav_small");
+    		$(".logo_nav path").css("fill", "#FEFCFF");
+    		$(".navbar-toggler span").css("background-color", "#FEFCFF");
     	}else{
     		$(".navbar").addClass("main.nav").removeClass("main_nav_small");
+    		$(".logo_nav path").css("fill", "#0C090A");
+    		$(".navbar-toggler span").css("background-color", "#0C090A");
     	}
     });
 
