@@ -109,6 +109,23 @@ section, .main_head{
   padding-bottom: 5px;
 }
 
+#catalog_list a, #language_list a{
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#catalog_list a:hover, #language_list a:hover{
+  background-color: rgba(56, 90, 118, 0.5);
+  color: #FEFCFF;
+}
+
+#catalog_list a:active, #language_list a:active{
+  background-color: rgba(56, 90, 118, 0.5);
+}
+
 .dropdown-toggle::after{
     display: none;
 }
@@ -913,7 +930,7 @@ footer{
   border-right: 1px solid rgba(254, 252, 255, 0.2)
 }
 
-.footer_nav span a{
+.footer_nav span a, .footer_scrolltop span a{
   text-decoration: none;
   color:rgba(254, 252, 255, 1);
 }
@@ -950,6 +967,7 @@ footer{
 #powered_link:hover{
   color:rgba(254, 252, 255, 0.5);
 }
+
 
 
 

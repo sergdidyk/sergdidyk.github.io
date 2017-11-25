@@ -72,7 +72,7 @@ $(function(){
 	/* Активация Tooltip Bootstrap (для кнопки callback)*/
     $('[data-toggle="tooltip"]').tooltip();    
 
-    /* Анимация main_nav и центрального лого*/
+    /* Анимация main_nav*/
     $(window).on("scroll", function(){
     	if($(this).scrollTop()>100){
     		$(".navbar").removeClass("main.nav").addClass("main_nav_small");
@@ -116,7 +116,11 @@ $(function(){
     		$(".dropdown-menu").removeClass("zoomIn");
     	}
   });
-    
+  
+	/* --------- Scroll TO Id -------------*/
+	$(".main_nav a, .top_link, .footer_nav a").mPageScroll2id();
+
+
 	/* Анимация товаров, галерея*/
 
 	$('.magnific_gallery').each(function(index , value){
