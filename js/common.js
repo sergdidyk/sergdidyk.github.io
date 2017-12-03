@@ -117,11 +117,11 @@ $(function(){
     	}
   });
   
-	/* --------- Scroll TO Id -------------*/
+	/* --------- Scroll TO Id Plugin-------------*/
 	$(".main_nav a, .top_link, .footer_nav a").mPageScroll2id();
 
 
-	/* Анимация товаров, галерея*/
+	/* Анимация товаров, галерея Magnific Popup*/
 
 	$('.magnific_gallery').each(function(index , value){
   var gallery = $(this);
@@ -161,6 +161,14 @@ $(function(){
 			}, 500);
 	});
 
+	/* -------- FORMS VALIDATION --------- */
+	
+	
+
+
+	/* --------END OF FORMS VALIDATION ---------- */
+
+
 	/* STORIES SLIDER OWL carousel*/
 	$(".stories_slider").owlCarousel({
  
@@ -172,14 +180,6 @@ $(function(){
       navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
  
   });
-
-	/* STORIES SLIDER OWL carousel*/
-	
-		/* var footer = document.querySelector(".footer_nav");
-		var c = footer.children;
-		var footer_arr = [];
-		footer_arr.push(c);
-		console.log(footer_arr); */
 
 	/* Date at footer */
 	var y = new Date();
