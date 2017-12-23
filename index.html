@@ -81,7 +81,7 @@
 		<div class="ig">
 			<div class="button_wrap">
 				<a class="button_aRight" id="button_aRight_ig"><span>Світлини GOLUBIKA в Instagram </span></a>
-				<a class="button_bRight slidebttn_ig" id="button_bRight_ig"><i class="fa fa-instagram icons_opacity" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/golubika.forbeloved/" class="button_bRight slidebttn_ig" id="button_bRight_ig"><i class="fa fa-instagram icons_opacity" aria-hidden="true"></i></a>
 			</div>
 		</div>		
 
@@ -1028,11 +1028,9 @@
 
 
 
-
-
 	<!-- ***********ALL FORMS************ -->
 	
-	<form action="#" method="#" class="callback_form modal fade">
+	<form action="#" method="#" class="callback_form modal fade" tabindex="-1" role="dialog" aria-labelledby="orderForm" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -1041,133 +1039,127 @@
 	          <span aria-hidden="true">&times;</span>
 	        </button>
 	      </div>
-
 				<div class="modal-body">
 					<div class="form-group">
-						<label for="user_name_feedback">Ім'я</label>
-						<input id="user_name_feedback" class="form-control" type="text" required name="name" placeholder="Введіть ваше ім'я"/>
-					</div>
+            <label class="control-label col-12" for="callback_name">Ваше ім'я:</label>
+            <div class="col-12">
+              <input type="text" class="form-control" id="callback_name" name="callback_name" placeholder="Введіть тут Ваше ім'я" required />
+            </div>
+          </div>
 					<div class="form-group">
-						<label for="user_phone">Номер телефону</label>
-						<input id="user_phone" type="tel" required class="form-control" name="phone" placeholder="Ваш номер телефону" />
-					</div>	
+            <label class="control-label col-12" for="callback_phone">Ваш телефон:</label>
+            <div class="col-12">
+              <input type="phone" class="form-control" id="callback_phone" name="callback_phone" placeholder="Введіть тут Ваш номер телефону" required />
+            </div>
+          </div>
 				</div>
-
 	      <div class="modal-footer">
 	        <button type="button" class="close_form btn btn-secondary" data-dismiss="modal">Закрити</button>
-	        <button type="submit" class="send_form btn">Зателефонуйте мені</button>
+	        <button type="submit" value="Submit" class="send_form btn">Зателефонуйте мені</button>
 		    </div>
 			</div>
 		</div>
 	</form>
 
-
-	<!--
-		<div class="modal fade callback_form" tabindex="-1" role="dialog" aria-labelledby="callbackForm" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-	    	<div class="modal-content">
-					<div class="modal-header">
-		        <h5 class="modal-title" id="callbackForm">Ваші контакти</h5>
+	<form action="#" method="#" class="order_form modal fade" tabindex="-1" role="dialog" aria-labelledby="orderForm" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+	        <h5 class="modal-title" id="orderForm">Замовлення</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
-		        </button>
-	      	</div>
-	      	<div class="modal-body">
-     	     		<div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
-						    <input id="user_name" type="text" class="form-control" name="name" placeholder="Ваше ім'я">
-						  </div>
-						  <div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
-						    <input id="user_phone" type="tel" class="form-control" name="phone" placeholder="Ваш номер телефону">
-						  </div>
-					</div>
-		      <div class="modal-footer">
-		        <button type="button" class="close_form btn btn-secondary" data-dismiss="modal">Закрити</button>
-		        <button type="submit" class="send_form btn">Зателефонуйте мені</button>
-		      </div>
-				</div>
-	    </div>
-		</div>
-	-->
+		        </button>	        
+	      </div>
 
-		<div class="modal fade order_form" tabindex="-1" role="dialog" aria-labelledby="orderForm" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-	    	<div class="modal-content">
-					<div class="modal-header">
-		        <h5 class="modal-title" id="orderForm">Замовлення</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-	      	</div>
-	      	<div class="modal-body">
-	        	<div class="container-fluid">
-	        		<div class="row">
-	        			<div class="modal_good_photo col-lg-4 col-md-4 col-sm-4 hidden-xs-down">
-	        			</div>
-	        			<div class="modal_good_price align-self-center offset-lg-1 col-lg-7 offset-md-1 col-md-7 offset-sm-1 col-sm-7 hidden-xs-down">
-	        					<h2></h2>
-	        			</div>
-	        		</div>
-	        		<div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
-						    <input id="user_name" type="text" class="form-control" name="name" placeholder="Ваше ім'я">
-						  </div>
-						  <div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-at" aria-hidden="true"></i></span>
-						    <input id="user_email" type="email" class="form-control" name="email" placeholder="Ваш email">
-						  </div>
-						  <div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
-						    <input id="user_phone" type="tel" class="form-control" name="phone" placeholder="Ваш номер телефону">
-						  </div>
-							<div class="form-group">
-						    <textarea class="form-control" id="user_comment" name="comment" placeholder="Коментар до Вашого замовлення" rows="3"></textarea>
-						  </div>
-	        	</div>
-					</div>
-		      <div class="modal-footer">
-		        <button type="button" class="close_form btn btn-secondary" data-dismiss="modal">Закрити</button>
-		        <button type="submit" class="send_form btn">Відправити замовлення</button>
-		      </div>
-				</div>
-	    </div>
-		</div>
+				<div class="modal-body">
+					<div class="form-group">
+            <div class="input-group col-12">
+					    <span class="input-group-addon input_colored"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+					    <input id="order_product" type="text" class="form-control" name="order_product" readonly>
+					  </div>
+						<div class="input-group col-12">
+					    <span class="input-group-addon input_colored"><i class="fa fa-credit-card" aria-hidden="true"></i></span>
+					    <input id="order_price" type="text" class="form-control" name="order_price" readonly>
+					  </div>
+					  <div class="input-group col-12">
+					  	<input id="order_product_descr" type="hidden" class="form-control" name="order_descr" readonly>
+					  </div>
+          </div>
 
-
-		<div class="modal fade customorder_form" tabindex="-1" role="dialog" aria-labelledby="customOrderForm" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-	    	<div class="modal-content">
-					<div class="modal-header">
-		        <h5 class="modal-title" id="customOrderForm">Індивідуальне замовлення</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-	      	</div>
-	      	<div class="modal-body">
-     	     		<div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
-						    <input id="user_name" type="text" class="form-control" name="name" placeholder="Ваше ім'я">
-						  </div>
-						  <div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-at" aria-hidden="true"></i></span>
-						    <input id="user_email" type="email" class="form-control" name="email" placeholder="Ваш email">
-						  </div>
-						  <div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
-						    <input id="user_phone" type="tel" class="form-control" name="phone" placeholder="Ваш номер телефону">
-						  </div>
-							<div class="form-group">
-						    <textarea class="form-control" id="user_comment" name="comment" placeholder="Будь-ласка, опишіть Вашу ідею..." rows="3"></textarea>
-						  </div>
-					</div>
-		      <div class="modal-footer">
-		        <button type="button" class="close_form btn btn-secondary" data-dismiss="modal">Закрити</button>
-		        <button type="submit" class="send_form btn">Відправити повідомлення</button>
-		      </div>
+					<div class="form-group">
+            <div class="col-12">
+              <input type="text" class="form-control" id="order_name" name="order_name" placeholder="Ваше ім'я" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-12">
+              <input type="phone" class="form-control" id="order_phone" name="order_phone" placeholder="Ваш номер телефону" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-12">
+              <input type="email" class="form-control" id="order_email" name="order_email" placeholder="Ваш email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-12">
+              <textarea type="text" class="form-control" id="order_comment" name="order_comment" rows="3" placeholder="Коментар до Вашого замовлення..."></textarea>
+            </div>
+          </div>
 				</div>
-	    </div>
+
+	      <div class="modal-footer">
+	        <button type="button" class="close_form btn btn-secondary" data-dismiss="modal">Закрити</button>
+	        <button type="submit" value="Submit" class="send_form btn">Відправити замовлення</button>
+	      </div>
+			</div>
 		</div>
+	</form>
+	
+	<form action="#" method="#" class="modal fade customorder_form" tabindex="-1" role="dialog" aria-labelledby="customOrderForm" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+				<div class="modal-header">
+	        <h5 class="modal-title" id="customOrderForm">Індивідуальне замовлення</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+      	</div>
+	
+				<div class="modal-body">
+					<div class="form-group">
+            <label class="control-label col-12" for="custom_name">Ваше ім'я:</label>
+            <div class="col-12">
+              <input type="text" class="form-control" id="custom_name" name="custom_name" placeholder="Введіть тут Ваше ім'я" required />
+            </div>
+          </div>
+					<div class="form-group">
+            <label class="control-label col-12" for="custom_phone">Ваш телефон:</label>
+            <div class="col-12">
+              <input type="phone" class="form-control" id="custom_phone" name="custom_phone" placeholder="Введіть тут Ваш номер телефону" required />
+            </div>
+          </div>
+          <div class="form-group">
+          	<label class="control-label col-12" for="custom_phone">Ваш email:</label>
+            <div class="col-12">
+              <input type="email" class="form-control" id="custom_email" name="custom_email" placeholder="Ваш email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-12">
+              <textarea type="text" class="form-control" id="custom_comment" name="custom_comment" rows="4" placeholder="Будь-ласка, опишіть тут Вашу ідею..." required></textarea>
+            </div>
+          </div>
+				</div>
+
+				<div class="modal-footer">
+	        <button type="button" class="close_form btn btn-secondary" data-dismiss="modal">Закрити</button>
+	        <button type="submit" class="send_form btn">Відправити повідомлення</button>
+	      </div>
+			</div>
+		</div>	
+	</form>
+
 		<!-- ***********ALL FORMS************ -->
 
 	</section>
@@ -1240,12 +1232,12 @@
 	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
 	<script src="libs/bootstrap/tether.min.js"></script>
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
-	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="libs/parallax/parallax.min.js"></script>
 	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>  
 	<script src="libs/scroll2id/jquery.malihu.PageScroll2id.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/owl/owl.carousel.min.js"></script>
+	<script src="libs/jquery_validate/jquery.validate.min.js"></script>
 	<script src="js/common.js"></script>
 	
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

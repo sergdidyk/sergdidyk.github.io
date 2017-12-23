@@ -968,13 +968,19 @@ footer{
   color:rgba(254, 252, 255, 0.5);
 }
 
+/* ================================= */
 
 
+
+/* =============СТИЛИ CALLBACK ФОРМЫ==========  */
 
 
 
 
 /* ================================= */
+
+
+
 
 /* 
 =============СТИЛИ ФОРМЫ ЗАКАЗА И МОДАЛЬНОГО ОКНА==========
@@ -993,12 +999,19 @@ footer{
 }
 
 .input-group{
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
-.form_price{
-  font-size: 18px;
-  color: #6D6968;
+.input_colored{
+  color: rgb(56,90,118);
+}
+
+.input_colored, #order_product, #order_price{
+  background-color: white;
+}
+
+#order_comment, #custom_comment{
+  resize: none;
 }
 
