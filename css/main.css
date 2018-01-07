@@ -1005,7 +1005,11 @@ footer{
 }
 
 /* FIX of the problem with body shifting left when modal opened */ 
-.modal-open {
+.modal{
+  overflow: hidden !important;
+}
+
+.modal-open{
     overflow: visible;
 }
 
