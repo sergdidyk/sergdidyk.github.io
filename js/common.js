@@ -279,8 +279,11 @@ $(function(){
 	var y = new Date();
 	document.getElementById("full_year").innerHTML = " " + y.getFullYear() + " ";
 
-	/* Очистка полей ввода формы после отправки и закрытия, callback в модальном окне после отправки формы продумать*/
+	/* Prevent scroll when modal is opened*/
   
+
+
+
 });
 
 

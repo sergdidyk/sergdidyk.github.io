@@ -971,19 +971,8 @@ footer{
 /* ================================= */
 
 
-
-/* =============СТИЛИ CALLBACK ФОРМЫ==========  */
-
-
-
-
-/* ================================= */
-
-
-
-
 /* 
-=============СТИЛИ ФОРМЫ ЗАКАЗА И МОДАЛЬНОГО ОКНА==========
+=============СТИЛИ ФОРМ И МОДАЛЬНОГО ОКНА==========
  */
 .close:focus{
   outline: none !important;
@@ -1014,4 +1003,15 @@ footer{
 #order_comment, #custom_comment{
   resize: none;
 }
+
+/* FIX of the problem with body shifting left when modal opened */ 
+.modal-open {
+    overflow: visible;
+}
+
+.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom{
+    padding-right:0px!important;
+}
+
+/* --------------------------------*/
 
