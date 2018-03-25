@@ -16,6 +16,10 @@ body {
   display: none;
 }
 
+.overflowHidden{
+  overflow: hidden;
+}
+
 body.fade-out{
     opacity: 0;
     transition: none;
@@ -54,7 +58,6 @@ section, .main_head{
 .main_nav_small, .main_nav_mob{
   top: 0px;
   background-color: rgba(56, 90, 118, 0.80);
-  *background-color: rgba(97, 109, 126, 0.65);
 }
 
 .navbar-brand svg{
