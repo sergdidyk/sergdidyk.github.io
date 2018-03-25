@@ -39,7 +39,11 @@ $(function(){
 		    $("body").removeClass("overflowHidden");
 	 	 	}
 	 });
-	 
+
+	$(".nav-item, .dropdown-item").click(function(){
+		$(mainNav).removeClass("main_nav_mob");
+	});
+
 	$(window).on("scroll", function(){
 	 if($(toggler).hasClass("collapsed")){
 	 		$("body").removeClass("overflowHidden");

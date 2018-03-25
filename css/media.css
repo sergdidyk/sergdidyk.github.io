@@ -124,7 +124,6 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
 	.main_nav{
 	  top: 0px;
 	  padding-top: 15px;
