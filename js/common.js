@@ -17,18 +17,16 @@ $(function(){
 		});
 
 	//Mobile menu toggle	
-	let mainNav = document.getElementById('main-nav');
 	let navbarToggle = document.getElementById('ham');
-
 	navbarToggle.addEventListener('click',function(){
-	    if(this.classList.contains('active')){
-	    		this.classList.remove('active');
-	    		$("#main-nav").slideUp();
-	    	
-	    }else{
-	    		this.classList.add('active');
-	    		$("#main-nav").slideDown();
-	    }
+    if(this.classList.contains('active')){
+    		this.classList.remove('active');
+    		$("#main-nav").slideUp();
+    	
+    }else{
+    		this.classList.add('active');
+    		$("#main-nav").slideDown();
+    }
 	});
 
 });
